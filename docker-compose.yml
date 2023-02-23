@@ -4,5 +4,5 @@ services:
     image: golang:1.20.1-bullseye
     volumes:
       - ./:/gorin
-    working_dir: /gorin/hello
+    working_dir: /gorin
     tty: true
