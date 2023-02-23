@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  go:
+    image: golang:1.20.1-bullseye
+    volumes:
+      - ./:/gorin
+    working_dir: /gorin/hello
+    tty: true
